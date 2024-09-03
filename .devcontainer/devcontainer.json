@@ -1,0 +1,25 @@
+{
+  "name": "CompetitiveProgramming",
+  "image": "mcr.microsoft.com/devcontainers/cpp",
+  "features": {
+    "ghcr.io/devcontainers/features/git:latest": {}
+  },
+  "postCreateCommand": "g++ --version",
+  "customizations": {
+    "vscode": {
+      "settings": {
+        "workbench": {
+          "iconTheme": "vscode-icons"
+        },
+        "editor": {
+          "formatOnSave": true,
+          "formatOnType": true
+        }
+      },
+      "extensions": [
+        "ms-vscode.cpptools-extension-pack",
+        "oderwat.indent-rainbow"
+      ]
+    }
+  }
+}
